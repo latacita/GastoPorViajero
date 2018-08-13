@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewConsumo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/consumo" />
+
+        <EditText
+            android:id="@+id/txtConsumo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="numberDecimal"
+            android:text="0"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/txtKm" />
+
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewKm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/km"
+            app:layout_constraintBaseline_toBaselineOf="@+id/txtKm"
+            app:layout_constraintStart_toStartOf="@+id/textViewConsumo" />
+
+        <EditText
+            android:id="@+id/txtKm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="numberDecimal"
+            android:text="0"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/txtPrecio" />
+
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewPrecio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/precio" />
+
+        <EditText
+            android:id="@+id/txtPrecio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="numberDecimal"
+            android:text="0"
+            android:textAlignment="center" />
+
+    </TableRow>
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewViajeros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/viajeros" />
+
+        <EditText
+            android:id="@+id/txtViajeros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="number"
+            android:text="0"
+            android:textAlignment="center" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/colorAccent"
+        android:elevation="15dp"
+        android:ems="10"
+        android:text="@string/calcular"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="number"
+        android:text="@string/resultado"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp" />
+
+
+</TableLayout>

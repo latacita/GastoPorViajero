@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cost per passenger</string>
+    <string name="consumo">Consumption</string>
+    <string name="km">Km</string>
+    <string name="precio">Price</string>
+    <string name="viajeros">Passengers</string>
+    <string name="calcular">Calculate</string>
+    <string name="resultado">Result</string>
+</resources>

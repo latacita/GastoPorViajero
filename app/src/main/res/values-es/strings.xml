@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculador de Gasto por Viajero</string>
+    <string name="consumo">Consumo del coche</string>
+    <string name="km">Km recorridos</string>
+    <string name="precio">Precio del litro</string>
+    <string name="viajeros">Número de viajeros</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Resultado</string>
+</resources>
