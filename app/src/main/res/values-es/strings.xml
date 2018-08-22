@@ -7,4 +7,10 @@
     <string name="viajeros">Número de viajeros</string>
     <string name="calcular">Calcular</string>
     <string name="resultado">Resultado</string>
+    <string name="error_consumo">El consumo ha de ser mayor que 0</string>
+    <string name="error_km">Los km recorridos han de ser mayor que 0</string>
+    <string name="error_precio">El precio ha de ser mayor que 0</string>
+    <string name="ok">Operacion realizada</string>
+    <string name="error">Operacion NO realizada</string>
+    <string name="error_viajeros">Los viajeros han de ser más que 0</string>
 </resources>

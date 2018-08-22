@@ -7,4 +7,10 @@
     <string name="viajeros">Passengers</string>
     <string name="calcular">Calculate</string>
     <string name="resultado">Result</string>
+    <string name="error_consumo">Consumption value has to be greater than 0</string>
+    <string name="error_km">Km value has to be greater than 0</string>
+    <string name="error_precio">Price value has to be greater than 0</string>
+    <string name="error_viajeros">Passengers value has to be greater than 0</string>
+    <string name="ok">Calculation done</string>
+    <string name="error">Calculation error</string>
 </resources>

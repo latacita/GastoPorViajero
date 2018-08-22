@@ -34,16 +34,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             //GastoViajero=((consumo/100)*kmRecorridos*precioLitro)/numeroViajeros
 
             if( Float.valueOf(txtConsumo.getText().toString()) <= 0 ) {
-                Toast.makeText(this, "El consumo ha de ser mayor que 0", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.error_consumo, Toast.LENGTH_SHORT).show();
             }
             else if( Float.valueOf(txtKm.getText().toString()) <= 0 ) {
-                Toast.makeText(this, "Los km recorridos han de ser mayor que 0", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.error_km, Toast.LENGTH_SHORT).show();
             }
             else if( Float.valueOf(txtPrecio.getText().toString()) <= 0 ) {
-                Toast.makeText(this, "El precio ha de ser mayor que 0", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.error_precio, Toast.LENGTH_SHORT).show();
             }
             else if( Float.valueOf(txtViajeros.getText().toString()) <= 0 ) {
-                Toast.makeText(this, "Los viajeros han de ser más que 0", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.error_viajeros, Toast.LENGTH_SHORT).show();
             }
             else {
                 float gasto = (
@@ -55,13 +55,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 txtResultado.setText(String.valueOf(gasto));
 
-                Toast.makeText(this, "Operacion realizada", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, android.R.string.ok, Toast.LENGTH_SHORT).show();
             }
         }
 
 
         else{
-            Toast.makeText(this, "operacion NO realizada", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, android.R.string.no, Toast.LENGTH_SHORT).show();
         }
 
 
