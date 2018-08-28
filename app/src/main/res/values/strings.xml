@@ -12,4 +12,6 @@
     <string name="error_viajeros">Los viajeros han de ser más que 0</string>
     <string name="ok">Operacion realizada</string>
     <string name="error">Operacion no realizada</string>
+    <string name="acercaDe_texto">Aplicación realizada por Carlos Blanco</string>
+    <string name="acerca_de">Acerca de</string>
 </resources>

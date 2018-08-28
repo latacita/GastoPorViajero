@@ -112,18 +112,4 @@
         android:textSize="24sp" />
 
 
-    <Button
-        android:id="@+id/btnAcercade"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="50dp"
-        android:backgroundTint="@color/colorAccent"
-        android:elevation="15dp"
-        android:ems="10"
-        android:onClick="lanzarAcercaDe"
-        android:text="@string/acerca_de"
-        android:textAlignment="center" />
-
-
 </TableLayout>

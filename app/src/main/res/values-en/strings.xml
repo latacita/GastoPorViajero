@@ -13,4 +13,6 @@
     <string name="error_viajeros">Passengers value has to be greater than 0</string>
     <string name="ok">Calculation done</string>
     <string name="error">Calculation error</string>
+    <string name="acercaDe_texto">This app has been developed by Carlos Blanco</string>
+    <string name="acerca_de">About</string>
 </resources>
