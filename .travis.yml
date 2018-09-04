@@ -20,7 +20,7 @@ android:
 
     # Para ejecutar el emulador en los tests
     # Indicar al menos una imagen
-    #- sys-img-armeabi-v7a-android-26
+    - sys-img-armeabi-v7a-android-26
     #- sys-img-armeabi-v7a-android-21
 
 # Exporta las licencias aceptadas en nuestro ordenador
