@@ -3,16 +3,9 @@ sudo: required
 language: android
 jdk: oraclejdk8
 
-<<<<<<< HEAD
-env:
-  matrix:
-    - ANDROID_TARGET=android-21 ANDROID_ABI=armeabi-v7a
-    - ANDROID_TARGET=android-26 ANDROID_ABI=armeabi
-=======
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -rf $HOME/.gradle/caches/*/plugin-resolution/
->>>>>>> db23e83df155c7cf523f90e1ce0fcb6fab2d77bb
 
 cache:
   directories:
