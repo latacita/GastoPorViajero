@@ -35,9 +35,9 @@ android:
 addons:
   sonarcloud:
     organization: "isuc"
-    projectKey: "GastoPorViajero"
     token:
       secure: "120537998e2c122476f30cade8d4a25865210fa6"
 
 script:
-- ./gradlew clean test build sonarqube
+- ./gradlew clean test build
+- ./gradlew sonarqube -Dsonar.projectKey="GastoPorViajero"
