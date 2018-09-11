@@ -31,12 +31,13 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 }
 
-sonarqube {
-    properties {
-        property "sonar.host.url", "https://sonarcloud.io"
-        property "sonar.organization", "isuc"
-        property "sonar.login", "7581ebd0d74f43ef91ae6b9864776973b548c9d3"
-        property "sonar.projectKey", "GastoPorViajero"
-        property "sonar.projectName", "GastoPorViajero"
-    }
-}
+# Esta parte solo si lo vamos a lanzar en local, sin travis
+#sonarqube {
+#    properties {
+#        property "sonar.host.url", "https://sonarcloud.io"
+#        property "sonar.organization", "isuc"
+#        property "sonar.login", "120537998e2c122476f30cade8d4a25865210fa6"
+#        property "sonar.projectKey", "GastoPorViajero"
+#        property "sonar.projectName", "GastoPorViajero"
+#    }
+#}

@@ -36,7 +36,7 @@ addons:
   sonarcloud:
     organization: "isuc"
     token:
-      secure: "7581ebd0d74f43ef91ae6b9864776973b548c9d3"
+      secure: "120537998e2c122476f30cade8d4a25865210fa6"
 
 script:
 - ./gradlew clean test build sonarqube
