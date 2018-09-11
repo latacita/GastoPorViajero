@@ -40,4 +40,4 @@ addons:
 
 script:
 - ./gradlew clean test build
-- ./gradlew sonarqube -Dsonar.projectKey="GastoPorViajero"
+- ./gradlew sonarqube -Dsonar.projectKey="GastoPorViajero" -Dsonar.projectName="GastoPorViajero"
