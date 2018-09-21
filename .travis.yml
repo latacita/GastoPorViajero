@@ -32,7 +32,14 @@ android:
   - 'google-gdk-license-.+'
   - '.+'
 
-
+deploy:
+  provider: releases
+  api_key:
+    secure: "5bdbfe8c902edb5f160e08ffa72c3f030c715929"
+  file: "app/build/outputs/apk/release/TravisAndroid.apk"
+  skip_cleanup: true
+  on:
+    tags: true
 
 script:
 - ./gradlew clean test build sonarqube
