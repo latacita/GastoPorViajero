@@ -9,13 +9,11 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     // Declaramos variables para los elementos (vistas) de la interfaz
     TextView txtKm, txtPrecio, txtViajeros, txtConsumo, txtResultado;
     Button btnCalcular;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,13 +77,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }
 
-
         else{
             Toast.makeText(this, android.R.string.no, Toast.LENGTH_SHORT).show();
             Log.d("operacion","operacion incorrecta");
         }
-
-
     }
 
     // Metodo para lanzar la actividad acercaDe
@@ -94,6 +89,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent i = new Intent(this, AcercaDe.class);
         startActivity(i);
     }
-
 
 }
