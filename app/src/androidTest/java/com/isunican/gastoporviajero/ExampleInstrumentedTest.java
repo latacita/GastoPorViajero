@@ -23,4 +23,11 @@ public class ExampleInstrumentedTest {
 
         assertEquals("com.isunican.gastoporviajero", appContext.getPackageName());
     }
+
+    @Test
+    public void useAppContext() {
+        assertEquals(true, false);
+    }
+
+
 }
