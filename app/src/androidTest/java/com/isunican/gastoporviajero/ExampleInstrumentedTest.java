@@ -25,7 +25,7 @@ public class ExampleInstrumentedTest {
     }
 
     @Test
-    public void useAppContext() {
+    public void stupidTest() {
         assertEquals(true, false);
     }
 
