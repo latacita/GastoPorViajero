@@ -42,4 +42,4 @@ deploy:
     tags: true
 
 script:
-- ./gradlew clean test build sonarqube
+- ./gradlew clean build test sonarqube
